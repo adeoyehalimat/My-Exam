@@ -10,5 +10,14 @@ The features of the counter app are;
 #Usage
 for effective usage of this counter app, you can follow these steps;
 - click the "+" button to Increment Count
--  - click the "+" button to Increment Count
+- click the "-" button to Decrement Count
+- click the "Reset" button to Reset Count
+- click the "Setvalue" button to set a desire Count
+#Technologies used
+- HTML
+- CSS
+- React.js
+#Contact
+If you have any questions or suggestions, please feel free to contact us @adeoyehalimah@gmail.com
+
 
