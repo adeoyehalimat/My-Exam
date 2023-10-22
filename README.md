@@ -1,5 +1,6 @@
 
 #Counter App
+
 This counter app is a simple app that allows users to increment, decrement and reset a count to zero. Users can be able to set their specific values in an input field provided in the app.
 
 #Features
