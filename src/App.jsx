@@ -17,7 +17,9 @@ import "./styles.css";
   } = useCounterApp(0);
 
   return (
+    
     <section className="Counter-container">
+      <h1> Counter </h1>
       <div className="App">
         
         <>
@@ -33,7 +35,8 @@ import "./styles.css";
         
           <div className=" Alternate-buttons">
           <input
-            type="number"
+            type="number" 
+            placeholder="input a number"
             value={settingValue}
             onChange={handleChangeValue}
            /> <span><button className="Setvalue" onClick={handleSetValue}> Setvalue </button></span>
