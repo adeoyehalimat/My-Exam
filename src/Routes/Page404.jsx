@@ -8,7 +8,7 @@ function Page404() {
       <h1 className="page404" > Page not found .... 404 Page </h1>
       <p>
             {" "}
-            <Link to="/"  className="page404"> Go  Back Home Page </Link>{" "}
+            <Link to="/"  className="page404"> Go  Back to Home Page </Link>{" "}
           </p>
           </div>
     </>

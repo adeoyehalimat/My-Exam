@@ -2,9 +2,10 @@
 import useCounterApp from "./UseCounterApp";
 import { Link } from "react-router-dom";
 import "./styles.css";
-// the custom hook implementation
 
-export default function Counter() {
+// using the custom hook in the root component
+
+ function Counter() {
   const {
     count,
     handleIncrement,
@@ -18,7 +19,9 @@ export default function Counter() {
   return (
     <section className="Counter-container">
       <div className="App">
+        
         <>
+        
           <div className=" Counter-button">
           <button className="Increment" onClick={handleIncrement}> + </button>
           <p className="Counts" >  {count} </p>
@@ -37,12 +40,16 @@ export default function Counter() {
           
           <button className="Reset"onClick={handleReset}> Reset </button>
           </div>
+          
           <p>
-            {" "}
-            <Link to="/"> Home Page </Link>{" "}
-          </p>
-        </>
+      <Link to="/"> Home Page </Link>
+      </p>
+      </>
       </div>
     </section>
+    
+   
+    
   );
 }
+export default Counter;
