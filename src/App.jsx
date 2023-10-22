@@ -2,6 +2,7 @@
 import useCounterApp from "./UseCounterApp";
 import { Link } from "react-router-dom";
 import "./styles.css";
+// the custom hook implementation
 
 export default function Counter() {
   const {
